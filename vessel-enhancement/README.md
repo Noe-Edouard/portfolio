@@ -2,7 +2,7 @@
 
 Ce projet est une implémentation modulaire d'un pipeline de rehaussement vasculaire en vue d'étudier l'influence des opérateur de dérivation discrète sur le résultat de la segmentation. Il permet d'effectuer les différentes étapes de pré-traitement, de traitement et d'analyse.
 
----
+___
 
 ### Table des matières
 
@@ -59,8 +59,11 @@ Le dossier `logs` contient tout les résultats sauvegardé selon le nom de l'exp
 ### 2. Installation
 
 Commandes d'installation :
+
 `git clone [repo_url]`
+
 `cd [project_folder]`
+
 `pip install -r requirements.txt`
 
 ---
