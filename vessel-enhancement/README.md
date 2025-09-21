@@ -4,13 +4,13 @@ Ce projet est une implémentation modulaire d'un pipeline de rehaussement vascul
 
 ### Table des matières
 
-    [1. Structure](#1-structure)
+[1. Structure](#1-structure)
 
-    [2. Installation](#2-installation)
+[2. Installation](#2-installation)
 
-    [3. Utilisation](#3-utilisation)
+[3. Utilisation](#3-utilisation)
 
-    [4. Remarques](#4-remarques)
+[4. Remarques](#4-remarques)
 
 ### 1. Structure
 
