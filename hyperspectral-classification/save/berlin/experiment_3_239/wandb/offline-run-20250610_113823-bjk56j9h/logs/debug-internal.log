@@ -1,0 +1,16 @@
+{"time":"2025-06-10T11:38:24.1577051+02:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"save\\berlin\\experiment_3_239\\wandb\\offline-run-20250610_113823-bjk56j9h\\logs\\debug-core.log"}
+{"time":"2025-06-10T11:38:24.3979244+02:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-06-10T11:38:24.3989439+02:00","level":"INFO","msg":"stream: created new stream","id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:24.3989439+02:00","level":"INFO","msg":"stream: started","id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:24.3989439+02:00","level":"INFO","msg":"sender: started","stream_id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:24.3994711+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:24.3989439+02:00","level":"INFO","msg":"handler: started","stream_id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:24.4084505+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-10T11:38:24.4121645+02:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-06-10T11:38:26.4282183+02:00","level":"INFO","msg":"stream: closing","id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:26.428773+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-10T11:38:26.428773+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-10T11:38:26.428773+02:00","level":"INFO","msg":"handler: closed","stream_id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:26.428773+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:26.428773+02:00","level":"INFO","msg":"sender: closed","stream_id":"bjk56j9h"}
+{"time":"2025-06-10T11:38:26.4296415+02:00","level":"INFO","msg":"stream: closed","id":"bjk56j9h"}
