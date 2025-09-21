@@ -1,16 +1,20 @@
 ## Pipeline de rehaussement vasculaire
 
-Ce projet est une implémentation modulaire d'un pipeline de rehaussement vasculaire en vue d'étudier l'influence des opérateur de dérivation sur le résultat de la segmentation. Il permet d'effetuer les différentes étapes du pré-traitement, du traitement et de l'analyse.
+Ce projet est une implémentation modulaire d'un pipeline de rehaussement vasculaire en vue d'étudier l'influence des opérateur de dérivation discrète sur le résultat de la segmentation. Il permet d'effectuer les différentes étapes de pré-traitement, de traitement et d'analyse.
+
+___
 
 ### Table des matières
 
-    [1. Structure](#1-structure)
+[1. Structure](#1-structure)
 
-    [2. Installation](#2-installation)
+[2. Installation](#2-installation)
 
-    [3. Utilisation](#3-utilisation)
+[3. Utilisation](#3-utilisation)
 
-    [4. Remarques](#4-remarques)
+[4. Remarques](#4-remarques)
+
+---
 
 ### 1. Structure
 
@@ -50,12 +54,19 @@ Le dossier `logs` contient tout les logs, triés par expérience et nommer avec 
 
 Le dossier `logs` contient tout les résultats sauvegardé selon le nom de l'expérience et la date exacte d'éxécution. ATTENTION, ce fichier ne doit pas être renommé ou inclu dans le nom du fichier de sauvegarde des données dans les paramètre de l'expérience car il est déjà inclu à partir du fichier `configs/args.py`.
 
+---
+
 ### 2. Installation
 
 Commandes d'installation :
+
 `git clone [repo_url]`
+
 `cd [project_folder]`
+
 `pip install -r requirements.txt`
+
+---
 
 ### 3. Utilisation
 
@@ -89,6 +100,8 @@ Il est possible de lancer 2 types de benchmark différents : une étude sur les 
 ##### Exemple d'utilisation
 
 Le benchmark peut se lancer depuis le terminal avec la commande `python main.py --run_benhchmark --benchmark_type [hessian|enhancement] [--test]`. La sous-commande `--test` permet d'aller chercher les fichiers de configuration dans `tests/configs` plutôt que `configs` afin de faciliter la gestion des tests. Les paramètres relatif au setup et au jeu de données sont dans `runner.yaml`, les paramètres de l'expérience dans `experiment.yaml` et les paramètres relatifs à chaque benchmark dans `hessian.yaml` ou `enhancement.yaml`.
+
+---
 
 ### 4. Remarques
 
