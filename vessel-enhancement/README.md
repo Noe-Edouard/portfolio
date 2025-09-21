@@ -1,6 +1,6 @@
 ## Pipeline de rehaussement vasculaire
 
-Ce projet est une implémentation modulaire d'un pipeline de rehaussement vasculaire en vue d'étudier l'influence des opérateur de dérivation sur le résultat de la segmentation. Il permet d'effetuer les différentes étapes du pré-traitement, du traitement et de l'analyse.
+Ce projet est une implémentation modulaire d'un pipeline de rehaussement vasculaire en vue d'étudier l'influence des opérateur de dérivation discrète sur le résultat de la segmentation. Il permet d'effectuer les différentes étapes de pré-traitement, de traitement et d'analyse.
 
 ### Table des matières
 
