@@ -1,0 +1,33 @@
+loading:
+  normalize: true # noramlize [0, 1] before processing image
+  crop: true # crop image to target_shape, useful for tests
+  target_shape: [128, 128, 128] # not necessary if crop=false, [64, 64] if 2d data
+  raw_file: test_raw.nii
+  gt_file: test_gt.nii # not mandatory
+
+methods:
+  derivator: default # ['default', 'gaussian', 'farid', 'cubic', 'trigonometric', 'catmull', 'bspline', 'bezier']
+  enhancer: frangi # ['frangi']
+  segmenter: thresholding # ['thresholding']
+
+hessian:
+  mode: reflect # ['reflect', 'constant', 'nearest', 'mirror']
+  cval: 0.0 # value if mode=constant
+
+processing:
+  normalize: true # normalize [0, 1] after enhancement
+  parallelize: false # parallelize processing of 3D images by chunking, not use if 2d data
+  chunk_size: [64, 64, 64] # size in voxel, not used if parallelize=false
+  overlap_size: null # size in voxel, not used if parallelize=false
+
+enhancement:
+  alpha: 0.5 # blobness
+  beta: 0.2 # platness
+  gamma: 20 # intensity
+  scales: [2, 4, 6, 8] # scales for multi-scale analysis
+  black_ridges: false # vessel contrast format
+  skimage: false # use frangi function from skimage, useful cor checks
+
+segmentation:
+  threshold: null # if null and ground_truth defined select optimized threshold
+

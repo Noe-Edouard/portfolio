@@ -1,0 +1,7 @@
+name: "pipeline" # experiment name
+input_dir: "3d" # where to fetch load (not necessary to include 'data/')
+output_dir: "pipeline" # where to save results (not necessary to include 'data/')
+log_file: "pipeline" # where to log infos (not necessary to include 'logs/')
+debug_mode: true # verbose
+plot_mode: true # display figures
+save_mode: true # save results

@@ -1,0 +1,21 @@
+mode: "hessian"
+
+results_dir: "hessian"
+
+params:
+  derivator:
+    [
+      "default",
+      "gaussian",
+      "farid",
+      "cubic",
+      "trigonometric",
+      "catmull",
+      "bspline",
+      "bezier",
+    ]
+
+params_grid:
+  alpha: [0.1, 0.3, 0.5]
+  beta: [0.1, 0.3, 0.5]
+  gamma: [10, 15, 20]

@@ -1,0 +1,7 @@
+name: analyzer # experiment name
+input_dir: test # where to fetch load (not necessary to include 'data/')
+output_dir: analyzer # where to save results (not necessary to include 'data/')
+log_file: analyzer # where to log infos (not necessary to include 'logs/')
+debug_mode: true # verbose
+plot_mode: true # display figures
+save_mode: true # save results

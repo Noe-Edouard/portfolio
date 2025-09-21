@@ -1,0 +1,11 @@
+setup:
+  name: "hessian"
+  input_dir: "3d" # no need to include 'data/' dir
+  output_dir: "benchmark" # no need to include 'outputs/' dir
+  log_file: "benchmark" # no need to include 'logs/' dir
+  debug_mode: true
+  plot_mode: false
+  save_mode: true
+
+images_dir: "images" # raw files in # data/3d/images
+labels_dir: "labels" # ground_truth files in # data/3d/labels
